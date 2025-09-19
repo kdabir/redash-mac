@@ -4,6 +4,9 @@ Running Redash locally on MacOS.
 
 Prerequisites: `docker-compose`
 
+> Important: this saves postgres data in the local directory (`./postgres-data`) and hence should not be used for production deployments
+> if you want a fresh start, just remove this directory
+
 ### Steps
 
 0. clone the repo and cd into the dir
